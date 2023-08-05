@@ -1,0 +1,9 @@
+.StarsRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: #d1d5d5 solid 2px;
+    padding-top: 5px;
+    margin-top: 20px;
+}

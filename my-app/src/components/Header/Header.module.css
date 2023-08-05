@@ -1,0 +1,21 @@
+.navbar{
+    height: 70px;
+    background-color: white;
+    display: flex;
+}
+.inner{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    margin-left: 70px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.textField{
+    margin-right: 70px;
+}

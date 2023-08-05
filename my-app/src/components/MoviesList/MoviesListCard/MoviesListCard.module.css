@@ -1,0 +1,30 @@
+.movie{
+    margin: 10px;
+    width: 200px;
+    /*height: fit-content;*/
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.overview{
+
+    margin: 0; /* Убираем внешний отступ */
+    -webkit-line-clamp: 3; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+    color: #9aa1a1;
+}
+.title{
+    padding: 5px 10px 15px 10px;
+    color: #747979;
+    font-size: 20px;
+}
+img{
+    border-radius: 10px 10px 0 0;
+}
